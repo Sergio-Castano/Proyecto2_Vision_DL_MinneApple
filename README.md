@@ -1,5 +1,7 @@
 # MinneApple: detección, segmentación y atención para estimar la cosecha de manzana
 
+**Integrantes**: Alejandro Galvez, Joan Sebastian Mena, Maria Estella Fuentes, Sergio Luis Castaño
+
 Proyecto 2 de Visión Computacional con Deep Learning (Maestría en IA y Ciencia de Datos, UAO). Sobre fotos de árboles de manzana, el sistema **detecta y cuenta** cada manzana,
 **segmenta** cada una (para aislarla del fondo y medir su diámetro) y usa **mecanismos de atención** (self-attention C2PSA y Grad-CAM). Se despliega en Streamlit con un Cloudflare Tunnel.
 **Sustentación: 3 de octubre de 2026.**
