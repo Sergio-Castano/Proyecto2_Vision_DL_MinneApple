@@ -1,0 +1,573 @@
+{
+  "pesos": "c2psa_s0",
+  "conf": 0.25,
+  "particion": "val",
+  "resumen": {
+    "16": {
+      "cociente_medio": 54.014219664398674,
+      "energia_dentro_media": 0.6860086619853973,
+      "mapas_vacios": 0,
+      "imagenes": 20
+    },
+    "19": {
+      "cociente_medio": 47.92614002617445,
+      "energia_dentro_media": 0.597593578696251,
+      "mapas_vacios": 0,
+      "imagenes": 20
+    },
+    "22": {
+      "cociente_medio": 0.8796210239375014,
+      "energia_dentro_media": 0.029472252540290355,
+      "mapas_vacios": 15,
+      "imagenes": 20
+    }
+  },
+  "elegida": 16,
+  "anclas_por_escala_medias": [
+    212.2,
+    48.4,
+    0.2
+  ],
+  "filas": [
+    {
+      "imagen": "20150921_131234_image1.png",
+      "capa": 16,
+      "anclas": 416,
+      "vacio": false,
+      "dentro": 0.7440333962440491,
+      "area": 0.036465928819444444,
+      "cociente": 20.40352242028493
+    },
+    {
+      "imagen": "20150921_131234_image1.png",
+      "capa": 19,
+      "anclas": 416,
+      "vacio": false,
+      "dentro": 0.5689311623573303,
+      "area": 0.036465928819444444,
+      "cociente": 15.601718666602661
+    },
+    {
+      "imagen": "20150921_131234_image1.png",
+      "capa": 22,
+      "anclas": 416,
+      "vacio": false,
+      "dentro": 0.04812080040574074,
+      "area": 0.036465928819444444,
+      "cociente": 1.319609892401305
+    },
+    {
+      "imagen": "20150921_131234_image21.png",
+      "capa": 16,
+      "anclas": 456,
+      "vacio": false,
+      "dentro": 0.7599977254867554,
+      "area": 0.03756618923611111,
+      "cociente": 20.23089754220253
+    },
+    {
+      "imagen": "20150921_131234_image21.png",
+      "capa": 19,
+      "anclas": 456,
+      "vacio": false,
+      "dentro": 0.572623074054718,
+      "area": 0.03756618923611111,
+      "cociente": 15.243043963167677
+    },
+    {
+      "imagen": "20150921_131234_image21.png",
+      "capa": 22,
+      "anclas": 456,
+      "vacio": false,
+      "dentro": 0.11196423321962357,
+      "area": 0.03756618923611111,
+      "cociente": 2.980452249652092
+    },
+    {
+      "imagen": "20150921_131234_image26.png",
+      "capa": 16,
+      "anclas": 475,
+      "vacio": false,
+      "dentro": 0.7197890877723694,
+      "area": 0.03627495659722222,
+      "cociente": 19.84258991029331
+    },
+    {
+      "imagen": "20150921_131234_image26.png",
+      "capa": 19,
+      "anclas": 475,
+      "vacio": false,
+      "dentro": 0.562688410282135,
+      "area": 0.03627495659722222,
+      "cociente": 15.5117597115257
+    },
+    {
+      "imagen": "20150921_131234_image26.png",
+      "capa": 22,
+      "anclas": 475,
+      "vacio": false,
+      "dentro": 0.19174550473690033,
+      "area": 0.03627495659722222,
+      "cociente": 5.285892051255642
+    },
+    {
+      "imagen": "20150921_131234_image36.png",
+      "capa": 16,
+      "anclas": 491,
+      "vacio": false,
+      "dentro": 0.7302258014678955,
+      "area": 0.03889431423611111,
+      "cociente": 18.77461566837251
+    },
+    {
+      "imagen": "20150921_131234_image36.png",
+      "capa": 19,
+      "anclas": 491,
+      "vacio": false,
+      "dentro": 0.5839857459068298,
+      "area": 0.03889431423611111,
+      "cociente": 15.014681641169881
+    },
+    {
+      "imagen": "20150921_131234_image36.png",
+      "capa": 22,
+      "anclas": 491,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.03889431423611111,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image406.png",
+      "capa": 16,
+      "anclas": 362,
+      "vacio": false,
+      "dentro": 0.631740152835846,
+      "area": 0.02689019097222222,
+      "cociente": 23.493330839057204
+    },
+    {
+      "imagen": "20150921_131234_image406.png",
+      "capa": 19,
+      "anclas": 362,
+      "vacio": false,
+      "dentro": 0.48820117115974426,
+      "area": 0.02689019097222222,
+      "cociente": 18.15536273669681
+    },
+    {
+      "imagen": "20150921_131234_image406.png",
+      "capa": 22,
+      "anclas": 362,
+      "vacio": false,
+      "dentro": 0.16471822559833527,
+      "area": 0.02689019097222222,
+      "cociente": 6.125587794020894
+    },
+    {
+      "imagen": "20150921_131234_image461.png",
+      "capa": 16,
+      "anclas": 397,
+      "vacio": false,
+      "dentro": 0.6738141775131226,
+      "area": 0.031819661458333336,
+      "cociente": 21.176032259031327
+    },
+    {
+      "imagen": "20150921_131234_image461.png",
+      "capa": 19,
+      "anclas": 397,
+      "vacio": false,
+      "dentro": 0.5240510702133179,
+      "area": 0.031819661458333336,
+      "cociente": 16.469410615808822
+    },
+    {
+      "imagen": "20150921_131234_image461.png",
+      "capa": 22,
+      "anclas": 397,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.031819661458333336,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image541.png",
+      "capa": 16,
+      "anclas": 81,
+      "vacio": false,
+      "dentro": 0.7172548174858093,
+      "area": 0.008694661458333334,
+      "cociente": 82.4937027074656
+    },
+    {
+      "imagen": "20150921_131234_image541.png",
+      "capa": 19,
+      "anclas": 81,
+      "vacio": false,
+      "dentro": 0.634290874004364,
+      "area": 0.008694661458333334,
+      "cociente": 72.95176207193583
+    },
+    {
+      "imagen": "20150921_131234_image541.png",
+      "capa": 22,
+      "anclas": 81,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.008694661458333334,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image561.png",
+      "capa": 16,
+      "anclas": 57,
+      "vacio": false,
+      "dentro": 0.5600257515907288,
+      "area": 0.004484592013888889,
+      "cociente": 124.87774804403958
+    },
+    {
+      "imagen": "20150921_131234_image561.png",
+      "capa": 19,
+      "anclas": 57,
+      "vacio": false,
+      "dentro": 0.6281197667121887,
+      "area": 0.004484592013888889,
+      "cociente": 140.06174135058143
+    },
+    {
+      "imagen": "20150921_131234_image561.png",
+      "capa": 22,
+      "anclas": 57,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.004484592013888889,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image586.png",
+      "capa": 16,
+      "anclas": 55,
+      "vacio": false,
+      "dentro": 0.5927324295043945,
+      "area": 0.004913194444444445,
+      "cociente": 120.64094678251986
+    },
+    {
+      "imagen": "20150921_131234_image586.png",
+      "capa": 19,
+      "anclas": 55,
+      "vacio": false,
+      "dentro": 0.47947922348976135,
+      "area": 0.004913194444444445,
+      "cociente": 97.59011757247438
+    },
+    {
+      "imagen": "20150921_131234_image586.png",
+      "capa": 22,
+      "anclas": 55,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.004913194444444445,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image626.png",
+      "capa": 16,
+      "anclas": 53,
+      "vacio": false,
+      "dentro": 0.5719786882400513,
+      "area": 0.0038509114583333334,
+      "cociente": 148.53072952438185
+    },
+    {
+      "imagen": "20150921_131234_image626.png",
+      "capa": 19,
+      "anclas": 53,
+      "vacio": false,
+      "dentro": 0.5066731572151184,
+      "area": 0.0038509114583333334,
+      "cociente": 131.57226872061233
+    },
+    {
+      "imagen": "20150921_131234_image626.png",
+      "capa": 22,
+      "anclas": 53,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.0038509114583333334,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image646.png",
+      "capa": 16,
+      "anclas": 66,
+      "vacio": false,
+      "dentro": 0.6337370276451111,
+      "area": 0.006235894097222222,
+      "cociente": 101.62729157434042
+    },
+    {
+      "imagen": "20150921_131234_image646.png",
+      "capa": 19,
+      "anclas": 66,
+      "vacio": false,
+      "dentro": 0.5237628817558289,
+      "area": 0.006235894097222222,
+      "cociente": 83.9916255135152
+    },
+    {
+      "imagen": "20150921_131234_image646.png",
+      "capa": 22,
+      "anclas": 66,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.006235894097222222,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image666.png",
+      "capa": 16,
+      "anclas": 54,
+      "vacio": false,
+      "dentro": 0.6651023030281067,
+      "area": 0.006163194444444444,
+      "cociente": 107.91519057582802
+    },
+    {
+      "imagen": "20150921_131234_image666.png",
+      "capa": 19,
+      "anclas": 54,
+      "vacio": false,
+      "dentro": 0.5571209788322449,
+      "area": 0.006163194444444444,
+      "cociente": 90.39484050911918
+    },
+    {
+      "imagen": "20150921_131234_image666.png",
+      "capa": 22,
+      "anclas": 54,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.006163194444444444,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131234_image91.png",
+      "capa": 16,
+      "anclas": 328,
+      "vacio": false,
+      "dentro": 0.6990835666656494,
+      "area": 0.030595703125,
+      "cociente": 22.849076676208906
+    },
+    {
+      "imagen": "20150921_131234_image91.png",
+      "capa": 19,
+      "anclas": 328,
+      "vacio": false,
+      "dentro": 0.5468775629997253,
+      "area": 0.030595703125,
+      "cociente": 17.87432571055598
+    },
+    {
+      "imagen": "20150921_131234_image91.png",
+      "capa": 22,
+      "anclas": 328,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.030595703125,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image171.png",
+      "capa": 16,
+      "anclas": 74,
+      "vacio": false,
+      "dentro": 0.599388062953949,
+      "area": 0.007307942708333333,
+      "cociente": 82.01871400421075
+    },
+    {
+      "imagen": "20150921_131729_image171.png",
+      "capa": 19,
+      "anclas": 74,
+      "vacio": false,
+      "dentro": 0.5340051651000977,
+      "area": 0.007307942708333333,
+      "cociente": 73.0718871798441
+    },
+    {
+      "imagen": "20150921_131729_image171.png",
+      "capa": 22,
+      "anclas": 74,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.007307942708333333,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image281.png",
+      "capa": 16,
+      "anclas": 306,
+      "vacio": false,
+      "dentro": 0.708729088306427,
+      "area": 0.036987847222222224,
+      "cociente": 19.161133765055244
+    },
+    {
+      "imagen": "20150921_131729_image281.png",
+      "capa": 19,
+      "anclas": 306,
+      "vacio": false,
+      "dentro": 0.7074534296989441,
+      "area": 0.036987847222222224,
+      "cociente": 19.126645177497853
+    },
+    {
+      "imagen": "20150921_131729_image281.png",
+      "capa": 22,
+      "anclas": 306,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.036987847222222224,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image366.png",
+      "capa": 16,
+      "anclas": 303,
+      "vacio": false,
+      "dentro": 0.7365508675575256,
+      "area": 0.03188585069444445,
+      "cociente": 23.09961476693036
+    },
+    {
+      "imagen": "20150921_131729_image366.png",
+      "capa": 19,
+      "anclas": 303,
+      "vacio": false,
+      "dentro": 0.7330741286277771,
+      "area": 0.03188585069444445,
+      "cociente": 22.99057772215883
+    },
+    {
+      "imagen": "20150921_131729_image366.png",
+      "capa": 22,
+      "anclas": 303,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.03188585069444445,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image426.png",
+      "capa": 16,
+      "anclas": 139,
+      "vacio": false,
+      "dentro": 0.7144147753715515,
+      "area": 0.01055881076388889,
+      "cociente": 67.66053406457937
+    },
+    {
+      "imagen": "20150921_131729_image426.png",
+      "capa": 19,
+      "anclas": 139,
+      "vacio": false,
+      "dentro": 0.6399896144866943,
+      "area": 0.01055881076388889,
+      "cociente": 60.61190306350195
+    },
+    {
+      "imagen": "20150921_131729_image426.png",
+      "capa": 22,
+      "anclas": 139,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.01055881076388889,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image501.png",
+      "capa": 16,
+      "anclas": 304,
+      "vacio": false,
+      "dentro": 0.8629075884819031,
+      "area": 0.054280598958333336,
+      "cociente": 15.89716408885401
+    },
+    {
+      "imagen": "20150921_131729_image501.png",
+      "capa": 19,
+      "anclas": 304,
+      "vacio": false,
+      "dentro": 0.8837490677833557,
+      "area": 0.054280598958333336,
+      "cociente": 16.281122256254683
+    },
+    {
+      "imagen": "20150921_131729_image501.png",
+      "capa": 22,
+      "anclas": 304,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.054280598958333336,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image661.png",
+      "capa": 16,
+      "anclas": 375,
+      "vacio": false,
+      "dentro": 0.7085995078086853,
+      "area": 0.032524956597222224,
+      "cociente": 21.786332156680047
+    },
+    {
+      "imagen": "20150921_131729_image661.png",
+      "capa": 19,
+      "anclas": 375,
+      "vacio": false,
+      "dentro": 0.6198012828826904,
+      "area": 0.032524956597222224,
+      "cociente": 19.056175556453294
+    },
+    {
+      "imagen": "20150921_131729_image661.png",
+      "capa": 22,
+      "anclas": 375,
+      "vacio": true,
+      "dentro": 0.0,
+      "area": 0.032524956597222224,
+      "cociente": 0.0
+    },
+    {
+      "imagen": "20150921_131729_image826.png",
+      "capa": 16,
+      "anclas": 424,
+      "vacio": false,
+      "dentro": 0.6900684237480164,
+      "area": 0.03875651041666667,
+      "cociente": 17.80522591763738
+    },
+    {
+      "imagen": "20150921_131729_image826.png",
+      "capa": 19,
+      "anclas": 424,
+      "vacio": false,
+      "dentro": 0.6569938063621521,
+      "area": 0.03875651041666667,
+      "cociente": 16.951830784012525
+    },
+    {
+      "imagen": "20150921_131729_image826.png",
+      "capa": 22,
+      "anclas": 424,
+      "vacio": false,
+      "dentro": 0.07289628684520721,
+      "area": 0.03875651041666667,
+      "cociente": 1.8808784914200953
+    }
+  ]
+}

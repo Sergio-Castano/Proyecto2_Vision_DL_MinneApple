@@ -1,0 +1,69 @@
+{
+  "modelo": "colab_1280_small_s0",
+  "particion": "val",
+  "conf": 0.35,
+  "recall_por_tamano": {
+    "1024": {
+      "0-20 px": {
+        "encontradas": 37,
+        "total": 208,
+        "recall": 0.178
+      },
+      "20-32 px": {
+        "encontradas": 950,
+        "total": 1394,
+        "recall": 0.681
+      },
+      "32-48 px": {
+        "encontradas": 1215,
+        "total": 1437,
+        "recall": 0.846
+      },
+      "48-mas px": {
+        "encontradas": 150,
+        "total": 183,
+        "recall": 0.82
+      },
+      "falsas_alarmas": 395,
+      "predicciones": 2747
+    },
+    "1280": {
+      "0-20 px": {
+        "encontradas": 51,
+        "total": 208,
+        "recall": 0.245
+      },
+      "20-32 px": {
+        "encontradas": 1023,
+        "total": 1394,
+        "recall": 0.734
+      },
+      "32-48 px": {
+        "encontradas": 1229,
+        "total": 1437,
+        "recall": 0.855
+      },
+      "48-mas px": {
+        "encontradas": 149,
+        "total": 183,
+        "recall": 0.814
+      },
+      "falsas_alarmas": 423,
+      "predicciones": 2875
+    }
+  },
+  "mAP_por_resolucion": {
+    "1024": {
+      "caja_50_95": 0.4392,
+      "caja_50": 0.8511,
+      "mascara_50_95": 0.33,
+      "mascara_50": 0.7953
+    },
+    "1280": {
+      "caja_50_95": 0.4594,
+      "caja_50": 0.8653,
+      "mascara_50_95": 0.3641,
+      "mascara_50": 0.8145
+    }
+  }
+}

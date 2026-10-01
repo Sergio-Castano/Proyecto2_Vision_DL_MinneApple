@@ -1,0 +1,29 @@
+{
+  "pesos": "runs/colab_1280_small_s0/weights/best_int8_sincabeza.onnx",
+  "particion": "test",
+  "imgsz": 1280,
+  "mask_ratio": 1,
+  "iou_nms": 0.7,
+  "caja": {
+    "mAP50-95": 0.4378525921662014,
+    "mAP50": 0.7581717716982604,
+    "P": 0.7404158772333338,
+    "R": 0.6909639105614609
+  },
+  "mascara": {
+    "mAP50-95": 0.3222751586692215,
+    "mAP50": 0.7047293524797659,
+    "P": 0.7336333622782818,
+    "R": 0.6468864468864469
+  },
+  "por_umbral": {
+    "0.35": {
+      "dice_union": 0.7346759246485948,
+      "iou_union": 0.5904448039410454,
+      "conteo_MAE": 11.6797583081571,
+      "conteo_sesgo": 8.700906344410877,
+      "conteo_total_pred": 15165,
+      "conteo_total_gt": 12285
+    }
+  }
+}

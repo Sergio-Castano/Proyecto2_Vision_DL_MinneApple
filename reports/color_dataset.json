@@ -1,0 +1,41 @@
+{
+  "train": {
+    "manzanas": 24961,
+    "rojo": 10841,
+    "verde_amarillo": 14120,
+    "pct_verde_amarillo": 56.6,
+    "hist_fraccion_roja": {
+      "0-0.2": 11620,
+      "0.2-0.4": 2500,
+      "0.4-0.6": 3154,
+      "0.6-0.8": 4303,
+      "0.8-1": 3384
+    }
+  },
+  "val": {
+    "manzanas": 3222,
+    "rojo": 1922,
+    "verde_amarillo": 1300,
+    "pct_verde_amarillo": 40.3,
+    "hist_fraccion_roja": {
+      "0-0.2": 691,
+      "0.2-0.4": 609,
+      "0.4-0.6": 694,
+      "0.6-0.8": 783,
+      "0.8-1": 445
+    }
+  },
+  "test": {
+    "manzanas": 12285,
+    "rojo": 7928,
+    "verde_amarillo": 4357,
+    "pct_verde_amarillo": 35.5,
+    "hist_fraccion_roja": {
+      "0-0.2": 2793,
+      "0.2-0.4": 1564,
+      "0.4-0.6": 2243,
+      "0.6-0.8": 2858,
+      "0.8-1": 2827
+    }
+  }
+}

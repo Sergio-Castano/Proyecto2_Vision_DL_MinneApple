@@ -1,0 +1,13 @@
+metodo,fecha,modelo,formato,motor,dispositivo,hardware,cpu_host,etapa,forma_entrada,hilos,n,mediana_ms,p95_ms,torch,onnxruntime
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,app,auto (1280x736),4,50,989.95,1175.47,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,gpu,NVIDIA GeForce GTX 1050,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,app,auto (1280x736),,50,322.82,371.46,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,app+gradcam,auto (1280x736),4,50,1530.3,3010.75,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,gpu,NVIDIA GeForce GTX 1050,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,app+gradcam,auto (1280x736),,50,923.06,1047.43,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,onnx-fp32,onnxruntime,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,forward,1x3x1280x1280,4,50,813.37,2284.84,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,onnx-int8,onnxruntime,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,forward,1x3x1280x1280,4,50,658.75,1177.67,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,forward,1x3x1280x1280,4,50,845.97,1489.49,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,gpu,NVIDIA GeForce GTX 1050,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,forward,1x3x1280x1280,,50,120.46,213.81,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,onnx-fp32,onnxruntime,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,pipeline,1280x1280,defecto,50,992.82,1075.8,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,onnx-int8,onnxruntime,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,pipeline,1280x1280,defecto,50,825.95,901.45,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,cpu,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,pipeline,auto (1280x736),4,50,479.99,560.94,2.6.0+cu124,1.30.0
+v2,2026-09-27,colab_1280_small_s0,pt,pytorch,gpu,NVIDIA GeForce GTX 1050,Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz,pipeline,auto (1280x736),,50,100.65,147.98,2.6.0+cu124,1.30.0

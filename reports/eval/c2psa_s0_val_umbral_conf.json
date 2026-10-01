@@ -1,0 +1,85 @@
+{
+  "pesos": "C:\\ArquitecturaDatos\\Maestria\\Vision Computacional\\proyecto2\\MinneApple\\runs\\c2psa_s0\\weights\\best.pt",
+  "particion": "val",
+  "imgsz": 1024,
+  "mask_ratio": 1,
+  "iou_nms": 0.7,
+  "caja": {
+    "mAP50-95": 0.4260881967298631,
+    "mAP50": 0.8483481731144128,
+    "P": 0.8401331569550221,
+    "R": 0.7578391803787644
+  },
+  "mascara": {
+    "mAP50-95": 0.32977400265144424,
+    "mAP50": 0.7970433253709153,
+    "P": 0.8101912466363,
+    "R": 0.7235578232949856
+  },
+  "por_umbral": {
+    "0.1": {
+      "dice_union": 0.7460423218297251,
+      "iou_union": 0.5972536935381618,
+      "conteo_MAE": 27.9247311827957,
+      "conteo_sesgo": 27.881720430107528,
+      "conteo_total_pred": 5815,
+      "conteo_total_gt": 3222
+    },
+    "0.15": {
+      "dice_union": 0.7597954798453965,
+      "iou_union": 0.61473195473475,
+      "conteo_MAE": 18.881720430107528,
+      "conteo_sesgo": 18.774193548387096,
+      "conteo_total_pred": 4968,
+      "conteo_total_gt": 3222
+    },
+    "0.2": {
+      "dice_union": 0.7708141112197127,
+      "iou_union": 0.6291232130921333,
+      "conteo_MAE": 12.344086021505376,
+      "conteo_sesgo": 12.150537634408602,
+      "conteo_total_pred": 4352,
+      "conteo_total_gt": 3222
+    },
+    "0.25": {
+      "dice_union": 0.7779930054377655,
+      "iou_union": 0.6385783166962662,
+      "conteo_MAE": 7.881720430107527,
+      "conteo_sesgo": 7.473118279569892,
+      "conteo_total_pred": 3917,
+      "conteo_total_gt": 3222
+    },
+    "0.3": {
+      "dice_union": 0.7813472868031613,
+      "iou_union": 0.6428029372853539,
+      "conteo_MAE": 4.903225806451613,
+      "conteo_sesgo": 3.78494623655914,
+      "conteo_total_pred": 3574,
+      "conteo_total_gt": 3222
+    },
+    "0.35": {
+      "dice_union": 0.7815792417884768,
+      "iou_union": 0.6434332739347719,
+      "conteo_MAE": 3.4086021505376345,
+      "conteo_sesgo": 0.03225806451612903,
+      "conteo_total_pred": 3225,
+      "conteo_total_gt": 3222
+    },
+    "0.45": {
+      "dice_union": 0.7669972406805378,
+      "iou_union": 0.62538806774089,
+      "conteo_MAE": 6.365591397849462,
+      "conteo_sesgo": -6.236559139784946,
+      "conteo_total_pred": 2642,
+      "conteo_total_gt": 3222
+    },
+    "0.55": {
+      "dice_union": 0.7240240262921126,
+      "iou_union": 0.5732699030722198,
+      "conteo_MAE": 12.311827956989248,
+      "conteo_sesgo": -12.311827956989248,
+      "conteo_total_pred": 2077,
+      "conteo_total_gt": 3222
+    }
+  }
+}

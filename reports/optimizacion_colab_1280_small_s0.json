@@ -1,0 +1,28 @@
+{
+  "corrida": "colab_1280_small_s0",
+  "forma_alto_ancho": [
+    1280,
+    1280
+  ],
+  "opset": 17,
+  "n_calibracion": 100,
+  "calibracion": "MinMax, imágenes de train repartidas por igual, por tramos de 2 (mismo resultado que todas a la vez)",
+  "formato": "QDQ, por canal, pesos QInt8, activaciones QUInt8",
+  "excluye_cabeza": false,
+  "nodos_excluidos": 0,
+  "preproceso_ort": true,
+  "segundos_cuantizacion": 156.5,
+  "onnx": "1.22.0",
+  "onnxruntime": "1.30.0",
+  "tamano_mb": {
+    "pt": 19.62,
+    "onnx_fp32": 39.16,
+    "onnx_int8": 10.6
+  },
+  "archivos": {
+    "fp32": "best.onnx",
+    "int8": "best_int8.onnx"
+  },
+  "nota_tamano": "El .pt está en FP16 (formato de checkpoint de Ultralytics): la comparación de la optimización es onnx_fp32 frente a onnx_int8.",
+  "reduccion_int8_vs_fp32": 0.729
+}

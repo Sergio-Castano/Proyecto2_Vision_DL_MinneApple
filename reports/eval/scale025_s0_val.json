@@ -1,0 +1,29 @@
+{
+  "pesos": "C:\\ArquitecturaDatos\\Maestria\\Vision Computacional\\proyecto2\\MinneApple\\runs\\scale025_s0\\weights\\best.pt",
+  "particion": "val",
+  "imgsz": 1280,
+  "mask_ratio": 1,
+  "iou_nms": 0.7,
+  "caja": {
+    "mAP50-95": 0.44081250097957214,
+    "mAP50": 0.8586234502901382,
+    "P": 0.8437876292225007,
+    "R": 0.77708786091276
+  },
+  "mascara": {
+    "mAP50-95": 0.34349853558817756,
+    "mAP50": 0.801641737444446,
+    "P": 0.8309835665792683,
+    "R": 0.7317603228810928
+  },
+  "por_umbral": {
+    "0.35": {
+      "dice_union": 0.7944186522768085,
+      "iou_union": 0.6614400385793048,
+      "conteo_MAE": 3.5806451612903225,
+      "conteo_sesgo": 0.9139784946236559,
+      "conteo_total_pred": 3307,
+      "conteo_total_gt": 3222
+    }
+  }
+}

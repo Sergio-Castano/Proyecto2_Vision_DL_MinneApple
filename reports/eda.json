@@ -1,0 +1,182 @@
+{
+  "train": {
+    "imagenes": 577,
+    "grupos": [
+      "20150919_174151",
+      "20150919_174730",
+      "20150921_131346",
+      "20150921_131453",
+      "20150921_131625",
+      "20150921_131833",
+      "20150921_132038",
+      "20150921_132245"
+    ],
+    "manzanas": 24958,
+    "descartadas_sin_poligono": 3,
+    "manzanas_por_imagen": {
+      "media": 43.3,
+      "min": 1,
+      "max": 123
+    },
+    "area_px": {
+      "mediana": 487.5,
+      "p10": 192.0,
+      "p90": 1063.0
+    },
+    "lado_mayor_px_mediana": 30.0,
+    "frac_pequenas_coco_lt_32x32": 0.885,
+    "frac_instancias_partidas": 0.0,
+    "iou_poligono_vs_mascara": {
+      "media": 1.0,
+      "min": 0.9997
+    },
+    "por_video": {
+      "20150919_174151": {
+        "imagenes": 66,
+        "manzanas": 6472,
+        "manzanas_por_imagen": 98.1
+      },
+      "20150919_174730": {
+        "imagenes": 100,
+        "manzanas": 3118,
+        "manzanas_por_imagen": 31.2
+      },
+      "20150921_131346": {
+        "imagenes": 88,
+        "manzanas": 2710,
+        "manzanas_por_imagen": 30.8
+      },
+      "20150921_131453": {
+        "imagenes": 81,
+        "manzanas": 3482,
+        "manzanas_por_imagen": 43.0
+      },
+      "20150921_131625": {
+        "imagenes": 52,
+        "manzanas": 2982,
+        "manzanas_por_imagen": 57.3
+      },
+      "20150921_131833": {
+        "imagenes": 84,
+        "manzanas": 2800,
+        "manzanas_por_imagen": 33.3
+      },
+      "20150921_132038": {
+        "imagenes": 83,
+        "manzanas": 2890,
+        "manzanas_por_imagen": 34.8
+      },
+      "20150921_132245": {
+        "imagenes": 23,
+        "manzanas": 504,
+        "manzanas_por_imagen": 21.9
+      }
+    }
+  },
+  "val": {
+    "imagenes": 93,
+    "grupos": [
+      "20150921_131234",
+      "20150921_131729"
+    ],
+    "manzanas": 3221,
+    "descartadas_sin_poligono": 1,
+    "manzanas_por_imagen": {
+      "media": 34.6,
+      "min": 5,
+      "max": 75
+    },
+    "area_px": {
+      "mediana": 526.0,
+      "p10": 221.0,
+      "p90": 1148.0
+    },
+    "lado_mayor_px_mediana": 32.0,
+    "frac_pequenas_coco_lt_32x32": 0.865,
+    "frac_instancias_partidas": 0.001,
+    "iou_poligono_vs_mascara": {
+      "media": 0.9998,
+      "min": 0.9953
+    },
+    "por_video": {
+      "20150921_131234": {
+        "imagenes": 59,
+        "manzanas": 2154,
+        "manzanas_por_imagen": 36.5
+      },
+      "20150921_131729": {
+        "imagenes": 34,
+        "manzanas": 1067,
+        "manzanas_por_imagen": 31.4
+      }
+    }
+  },
+  "test": {
+    "imagenes": 331,
+    "grupos": [
+      "dataset1_back",
+      "dataset1_front",
+      "dataset2_back",
+      "dataset2_front",
+      "dataset3_back",
+      "dataset3_front",
+      "dataset4_front"
+    ],
+    "manzanas": 12285,
+    "descartadas_sin_poligono": 0,
+    "manzanas_por_imagen": {
+      "media": 37.1,
+      "min": 1,
+      "max": 88
+    },
+    "area_px": {
+      "mediana": 611.0,
+      "p10": 193.0,
+      "p90": 1526.6000000000004
+    },
+    "lado_mayor_px_mediana": 35.0,
+    "frac_pequenas_coco_lt_32x32": 0.752,
+    "frac_instancias_partidas": 0.001,
+    "iou_poligono_vs_mascara": {
+      "media": 1.0,
+      "min": 0.9918
+    },
+    "por_video": {
+      "dataset1_back": {
+        "imagenes": 40,
+        "manzanas": 1255,
+        "manzanas_por_imagen": 31.4
+      },
+      "dataset1_front": {
+        "imagenes": 54,
+        "manzanas": 1437,
+        "manzanas_por_imagen": 26.6
+      },
+      "dataset2_back": {
+        "imagenes": 51,
+        "manzanas": 1097,
+        "manzanas_por_imagen": 21.5
+      },
+      "dataset2_front": {
+        "imagenes": 51,
+        "manzanas": 1222,
+        "manzanas_por_imagen": 24.0
+      },
+      "dataset3_back": {
+        "imagenes": 45,
+        "manzanas": 2695,
+        "manzanas_por_imagen": 59.9
+      },
+      "dataset3_front": {
+        "imagenes": 48,
+        "manzanas": 2319,
+        "manzanas_por_imagen": 48.3
+      },
+      "dataset4_front": {
+        "imagenes": 42,
+        "manzanas": 2260,
+        "manzanas_por_imagen": 53.8
+      }
+    }
+  }
+}

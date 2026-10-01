@@ -1,0 +1,70 @@
+{
+  "particion": "val",
+  "semillas": [
+    0,
+    1,
+    2
+  ],
+  "n_bootstrap": 10000,
+  "mAP": {
+    "c2psa": {
+      "caja_50_95": {
+        "valores": [
+          0.4261,
+          0.4319,
+          0.4318
+        ],
+        "media": 0.4299390967497982,
+        "desv": 0.0033351658825286072
+      },
+      "mascara_50_95": {
+        "valores": [
+          0.3298,
+          0.3295,
+          0.3262
+        ],
+        "media": 0.328496337033279,
+        "desv": 0.0019820206625405963
+      }
+    },
+    "sin_c2psa": {
+      "caja_50_95": {
+        "valores": [
+          0.4278,
+          0.4292,
+          0.4299
+        ],
+        "media": 0.42898334474934335,
+        "desv": 0.001044593767047744
+      },
+      "mascara_50_95": {
+        "valores": [
+          0.3307,
+          0.3197,
+          0.3265
+        ],
+        "media": 0.3256417709138493,
+        "desv": 0.005591416659414024
+      }
+    },
+    "diferencia_caja_50_95": 0.001,
+    "diferencia_mascara_50_95": 0.0029
+  },
+  "dice_union": {
+    "diferencia_media": -0.0009931738351266013,
+    "ic95_lo": -0.004201676327950118,
+    "ic95_hi": 0.002285581647558374,
+    "n_diferencias": 279,
+    "confirmada": false,
+    "lectura": "diferencia = Dice(c2psa) - Dice(sin_c2psa); positivo => con C2PSA es mejor"
+  },
+  "error_conteo_absoluto": {
+    "diferencia_media": -0.025089605734767026,
+    "ic95_lo": -0.35842293906810035,
+    "ic95_hi": 0.30474910394265103,
+    "n_diferencias": 279,
+    "confirmada": false,
+    "lectura": "diferencia = error(c2psa) - error(sin_c2psa); NEGATIVO => con C2PSA es mejor (menos error)"
+  },
+  "lectura": "'confirmada' exige que el IC95 no cruce el cero; ver 'lectura' de cada métrica para el signo que significa mejora"
+}

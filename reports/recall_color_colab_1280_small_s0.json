@@ -1,0 +1,19 @@
+{
+  "modelo": "colab_1280_small_s0",
+  "particion": "val",
+  "conf": 0.35,
+  "imgsz": 1280,
+  "rojo": {
+    "encontradas": 1655,
+    "total": 1922,
+    "recall": 0.8611
+  },
+  "verde_amarillo": {
+    "encontradas": 797,
+    "total": 1300,
+    "recall": 0.6131
+  },
+  "diferencia_rojo_menos_verde": 0.248,
+  "umbral_alerta_decision_0007": 0.05,
+  "dispara_corrida_exploratoria": true
+}
