@@ -1,0 +1,31 @@
+# MinneApple: dependencias directas con las versiones del entorno donde se entrenó (Python 3.12.13, Windows 11, GTX 1050 4 GB).
+# Las dependencias indirectas las resuelve pip. Si algo cambia, actualizar estas versiones.
+#
+# Instalación (con el entorno virtual activo):  python -m pip install -r requirements.txt
+# torch y torchvision salen del índice de PyTorch para CUDA 12.4. Sin GPU NVIDIA, cambiar por las versiones de PyPI (sin «+cu124»).
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# Modelo y entrenamiento
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+ultralytics==8.4.149
+
+# Datos e imágenes
+numpy==2.4.4
+opencv-python==5.0.0.93
+pillow==12.2.0
+pyyaml==6.0.3
+
+# Optimización (cuantización INT8) y tiempos
+onnx==1.22.0
+onnxruntime==1.30.0
+
+# Aplicación
+streamlit==1.63.0
+
+# Notebook de sustentación (se ejecuta con nbconvert)
+matplotlib==3.11.1
+ipykernel==7.3.0
+nbformat==5.11.0
+nbclient==0.11.0
+nbconvert==7.17.1
